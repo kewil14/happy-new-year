@@ -3,13 +3,13 @@ import { Button } from "./components/ui/button";
 import { Countdown } from "./components/Countdown";
 import { 
   Sparkles, 
-  Calendar, 
-  Image as ImageIcon, 
-  MapPin, 
-  Mail, 
-  Facebook, 
-  Twitter, 
-  Instagram 
+  // Calendar, 
+  // Image as ImageIcon, 
+  // MapPin, 
+  // Mail, 
+  // Facebook, 
+  // Twitter, 
+  // Instagram 
 } from "lucide-react";
 import { ParticleEffect } from "./components/ParticleEffect";
 import { AboutSection } from './components/AboutSection';

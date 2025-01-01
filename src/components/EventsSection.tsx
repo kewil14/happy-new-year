@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { MapPin, Calendar, Clock, Info } from 'lucide-react';
+import { MapPin, Clock } from 'lucide-react';
 import { useState } from 'react';
 
 interface Event {

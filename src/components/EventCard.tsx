@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Calendar, Clock, MapPin } from "lucide-react";
+import { Clock, MapPin } from "lucide-react";
 import { Button } from "./ui/button";
 
 interface EventCardProps {

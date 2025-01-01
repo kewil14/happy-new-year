@@ -49,12 +49,12 @@ export function GallerySection() {
     setSelectedImage(selectedImage === images.length - 1 ? 0 : selectedImage + 1);
   };
 
-  const handleKeyDown = (e: KeyboardEvent) => {
-    if (selectedImage === null) return;
-    if (e.key === 'ArrowLeft') handlePrevious();
-    if (e.key === 'ArrowRight') handleNext();
-    if (e.key === 'Escape') setSelectedImage(null);
-  };
+  // const handleKeyDown = (e: KeyboardEvent) => {
+  //   if (selectedImage === null) return;
+  //   if (e.key === 'ArrowLeft') handlePrevious();
+  //   if (e.key === 'ArrowRight') handleNext();
+  //   if (e.key === 'Escape') setSelectedImage(null);
+  // };
 
   return (
     <section className="py-20 bg-black/40 backdrop-blur-sm">
